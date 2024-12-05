@@ -1,0 +1,28 @@
+.moneyminer-page {
+  background-color: #1e1e2f;
+  color: #ffffff;
+  padding: 6rem;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+iframe.bot {
+  border: none;
+  border-radius: 10px;
+  background-color: #292946;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  margin: 0 auto 3rem auto;
+  max-width: 100%;
+  width: 700px;
+  height: 600px;
+}
+
+@media (max-width: 768px) {
+  iframe.bot {
+    width: 100%;
+    height: 400px;
+  }
+}
